@@ -42,16 +42,16 @@ Function generates random number based on number of quotes
   */
 
   function getRandomQuote() {
-  var randomNum = Math.floor(Math.random() * quotes.length);
-  var randomQuote = quotes[randomNum];
-  return randomQuote;
+    var randomNum = Math.floor(Math.random() * quotes.length);
+    var randomQuote = quotes[randomNum];
+    return randomQuote;
   }
 
 /*
 Function assigns object to string value. Then starts to
-generate HTML text for each category by calling the specific
-string value of the object key. 'If statements' check the 
-contents of string value to see if this exist to add to text.
+  generate HTML text for each category by calling the specific
+  string value of the object key. 'If statements' check the 
+  contents of string value to see if this exist to add to text.
 */
 
 function printQuote() {
